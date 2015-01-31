@@ -1,0 +1,112 @@
+﻿body {  
+background: #000000;
+background: -moz-radial-gradient(center, ellipse cover,  #000000 0, #000000 36%, #000000 100%);
+background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0,#000000), color-stop(36%,#000000), color-stop(100%,#000000));
+background: -webkit-radial-gradient(center, ellipse cover,  #b5bdc8 0,#000000 36%,#000000 100%);
+background: -o-radial-gradient(center, ellipse cover,  #b5bdc8 0,#b5bdc8 36%,#b5bdc8 100%);
+background: -ms-radial-gradient(center, ellipse cover,  #000000 0,#000000 36%,#000000 100%);
+background: radial-gradient(ellipse at center,  #000000 0,#000000 36%,#000000 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 );
+}
+
+/* styling for slides that are inactive b5bdc8 */
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.0;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+}
+
+    /* styling for slides that are active*/
+    .impress-enabled .step.active {
+        opacity: 1;
+    }
+
+
+/* styling for all slides */
+.slide {
+    display: block;
+    width: 1366px;
+    height: 768px;
+    padding: 40px 60px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: rgb(52, 52, 52);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+/* styling for slide paragraphs */
+.slide p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
+
+/* styling for slide links */
+.slide a, .slide a:visited {
+        color: #071549;
+        text-decoration: none;
+        background-color: #abc;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #cde;
+    }
+
+.slide a:hover, .slide a:active {
+            background-color: #cde;
+        }
+
+/* styling for slide text area */
+.slide .slide-text {
+        height: 450px;
+    }
+
+.backgroundimage {
+    background: url('../assets/images/whiterun.jpg') no-repeat;
+    background-size:100%;
+}
+
+.backgroundimageindex {
+    background: url('../assets/images/index.jpg') no-repeat;
+    background-size:100%;
+}
+
+.villager {
+    background-color: black;
+    background: url('../assets/images/villager.jpg') no-repeat;
+    background-size:100%;
+}
+
+.cave {
+    /*background: url('../assets/images/darkcaves.jpg') no-repeat;*/
+    background-color : black;
+    background-size:100%;
+}
+
+.dragonattack {
+    background: url('../assets/images/dragonattack.jpg') no-repeat;
+    background-size:100%;
+}
+
+.mayormeet {
+    background: url('../assets/images/mayor.jpg') no-repeat;
+    background-size:100%;
+}
+
+.route1 {
+    background: url('../assets/images/intothemountain.jpg') no-repeat;
+    background-size:100%;
+}
+
+/* styling for menu section of each slide */
+div.menu {
+    border-top: 2px solid black;
+    padding-top: 25px;
+    text-align: center;
+}

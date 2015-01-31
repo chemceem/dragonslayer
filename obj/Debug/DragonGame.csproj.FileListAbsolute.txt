@@ -1,0 +1,6 @@
+C:\Users\Chemcee. M. C\Documents\Semester 4\Web Game\Assignment 1\DragonGame\DragonGame\bin\DragonGame.dll.config
+C:\Users\Chemcee. M. C\Documents\Semester 4\Web Game\Assignment 1\DragonGame\DragonGame\bin\DragonGame.dll
+C:\Users\Chemcee. M. C\Documents\Semester 4\Web Game\Assignment 1\DragonGame\DragonGame\bin\DragonGame.pdb
+C:\Users\Chemcee. M. C\Documents\Semester 4\Web Game\Assignment 1\DragonGame\DragonGame\obj\Debug\DragonGame.dll
+C:\Users\Chemcee. M. C\Documents\Semester 4\Web Game\Assignment 1\DragonGame\DragonGame\obj\Debug\DragonGame.pdb
+C:\Users\Chemcee. M. C\Documents\Semester 4\Web Game\Assignment 1\DragonGame\DragonGame\obj\Debug\DragonGame.csprojResolveAssemblyReference.cache
